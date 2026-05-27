@@ -11,6 +11,10 @@ public class ParkingLevel {
     private final int levelNum;
     private final Map<VehicleType, ParkingSpotManager> managerMap;
 
+    public int getLevelNum() {
+        return levelNum;
+    }
+
     public ParkingLevel(int levelNum, Map<VehicleType, ParkingSpotManager> managerMap) {
         this.levelNum = levelNum;
         this.managerMap = managerMap;

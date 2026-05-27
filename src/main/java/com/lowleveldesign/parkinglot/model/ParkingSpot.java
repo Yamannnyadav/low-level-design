@@ -8,6 +8,7 @@ public class ParkingSpot {
 
     public ParkingSpot(int parkingSpotId) {
         this.parkingSpotId = parkingSpotId;
+        isFree = true;
     }
 
     public int getParkingSpotId() {
