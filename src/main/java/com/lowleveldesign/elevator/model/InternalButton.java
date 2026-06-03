@@ -1,0 +1,22 @@
+package com.lowleveldesign.elevator.model;
+
+import com.lowleveldesign.elevator.controller.ElevatorController;
+import com.lowleveldesign.elevator.service.InternalDispatcher;
+
+public class InternalButton {
+
+    private final ElevatorController controller;
+
+    public InternalButton(ElevatorController controller) {
+        this.controller = controller;
+    }
+
+    public void pressButton(int destinationFloor) {
+        //we can also remove teh Internal dispatcher from mid, but generally say for validation, controller and
+        //similar code flow like external button, it's good to have
+
+        InternalDispatcher.getInstance().submitInternalRequest(destinationFloor, controller);
+    }
+
+
+}
