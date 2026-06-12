@@ -3,7 +3,7 @@ package com.lowleveldesign.tictactoe.execute;
 import com.lowleveldesign.tictactoe.enums.GameStatus;
 import com.lowleveldesign.tictactoe.processor.TicTacToeGame;
 
-public class ExecuteGame {
+public class ExecuteTicTacToe {
 
     public static void main(String[] args) {
         System.out.println("\n===>>> TicTacToe Game\n");

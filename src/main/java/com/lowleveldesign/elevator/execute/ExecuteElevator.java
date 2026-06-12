@@ -1,4 +1,4 @@
-package com.lowleveldesign.elevator.processflow;
+package com.lowleveldesign.elevator.execute;
 
 import com.lowleveldesign.elevator.controller.ElevatorController;
 import com.lowleveldesign.elevator.model.Building;
@@ -10,7 +10,7 @@ import com.lowleveldesign.elevator.strategy.NearestElevatorStrategy;
 
 import java.util.Arrays;
 
-public class Execute {
+public class ExecuteElevator {
 
     public static void main(String[] args) {
 

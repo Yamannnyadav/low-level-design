@@ -1,4 +1,4 @@
-package com.lowleveldesign.parkinglot.parkingclient;
+package com.lowleveldesign.parkinglot.execute;
 
 import com.lowleveldesign.parkinglot.enumclasses.VehicleType;
 import com.lowleveldesign.parkinglot.model.ParkingSpot;
@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ParkingClient {
+public class ExecuteParkingLot {
 
     public static void main(String[] args){
 
