@@ -15,7 +15,7 @@ and principles.
 
 
 **Non-Function Requirements**:
-- - System should update the board state after every move with low latency.
+- System should update the board state after every move with low latency.
 - System should maintain consistency of player positions.
 - System should be extensible to support multiple dice or custom board sizes.
 
