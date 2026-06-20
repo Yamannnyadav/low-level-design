@@ -1,4 +1,4 @@
-package com.lowleveldesign.applycoupon;
+package com.lowleveldesign.applycoupon.applycoupon;
 
 import com.lowleveldesign.applycoupon.entities.Cart;
 import com.lowleveldesign.applycoupon.entities.Product;
